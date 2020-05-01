@@ -1,0 +1,35 @@
+.container-fluid{
+    background-color: pink;
+    
+}
+
+body{
+    background-color: lightblue;
+    padding: auto;
+
+}
+
+.text-center{
+    font-size: 32px;
+    font-weight: bold;
+}
+#heading{
+    font-size: 28px;
+}
+#menu
+{
+    background-color: pink;
+    height: 1000px;
+    font-family: arial;
+    font-size: 1.2em;
+}
+
+@media (max-width:768px)
+{
+    #menu#heading p{
+        margin-left: 50px;
+        margin-right: 50px;
+        
+    }
+    
+}
